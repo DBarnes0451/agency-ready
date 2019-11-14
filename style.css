@@ -48,13 +48,13 @@ html {
 
   .full-vh {
       min-height: 100vh;
-      margin: 0px 10em;
   }
 
   .flex-container {
-      width: 1200px;
+      max-width: 1200px;
       display:flex;
       margin: 0px auto;
+      justify-content: center;
   }
 
   #me {
@@ -67,9 +67,9 @@ html {
     font-weight: bold;
     position: relative; 
     display: flex;
-    margin: auto ;   
-    word-spacing; 100px;
-    align-self: flex-end;
+    margin: auto;   
+    word-spacing: 100px;
+    justify-content: flex-end;
   }
 
   h1::before {
